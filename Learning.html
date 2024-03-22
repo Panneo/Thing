@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Learning.css">
+        <title>HTML Crash Course</title>
+    </head>
+    <body class="backcolor1">
+        <a href="https://www.wcostream.tv/bluey-season-1-episode-1-the-magic-xylophone" target="_blank"><button onClick="Button()">Bluey</button></a>
+        <div id="title">
+            <h2>Title</h2>
+            <p>To change the title of the website aka what shows as the tab name use the title tag</p>
+        </div>
+
+        <div id="Text">
+            <h1>
+                How things work in HTML
+            </h1>
+            <h2>The front end of things</h2>
+
+            <div id="Span">
+                <h2>Span</h2>
+                <p>
+                    <span>Span</span> seperates a short piece of text form the rest of the text on a line effectively useless in both code and printed
+                </p>
+            </div>
+
+            <div id="Line">
+                 <h2>Line Break</h2>
+                 <p>br allows for us to make a line break in a single paragraph element. <br>It does not need a closing tag just the opening one.  
+                    <br><br> You can add mulitple right next to each other too</p>
+            </div>
+
+            <div id="Lists">
+                <h2>Unordered lists</h2>
+                <p>Unordered lists allow you to make a list of values in a bullet point list uses the ul and li tag</p>
+                <h2>Ordered lists</h2>
+                <p>Ordered lists allow you to make a list of values in a 1 2 3 point list uses the ol and li tag</p>
+            </div>
+
+            <div id="Styling">
+                <h2>Styling text</h2>
+                <h3>Strong</h3>
+                <p><strong>Bolden</strong> the text it surrounds</p>
+                <h3>Em</h3>
+                <p><em>Italic</em> emphasis on text</p>
+            </div>
+
+            <div id="Background color">
+                <h2>Background color</h2>
+                <p>To change the background color of the html page use the <strong>bgcolor=</strong> in the body element</p>
+            </div>
+
+            <div id="Images">
+                <h2>Images</h2>
+                <p>You can also add images with html using the img tag which has a required element called src aka the source for the image which use URLs for the image
+                    <br><br> However the image will need to be saved into the same directory as the html file
+                    <br><br> You can also add an alt/text the describes the image using the alt element
+                </p>
+                <img src="Apicture.jpeg" alt="Your New Boyfriend" />
+            </div>
+            
+            <div id="Vid">
+                <h2>Videos</h2>
+                <p>You can have videos on the front end of html as well using the video tag and src element
+                    <br><br> You can also configure the size of the video window with the width and height element, add the controls element for video controls
+                </p>
+                <video src="Stuff.mp4" controls>Loser</video>
+            </div>
+
+            <div id="link">
+                <h2>Link</h2>
+                <p>To link to other sites use the anchor element which uses the a tag and href element
+                    <br><br> use the target=_blank element to make the link open in a new tab
+                </p>
+                <a href="https://www.wcostream.tv/bluey-season-1-episode-1-the-magic-xylophone" target="_blank"> Bluey Season 1, Episode 1</a>
+                <br><br>
+                <p>You can even make an image a link</p>
+                <a href="Morestuff.html"><img src="CHaarliebrwon.png"></a>
+            </div>
+
+            <div id="input">
+                <h2>Inputs</h2>
+                <p>You can create input boxes using the form tag, which includes the action element which will tell where the value is stored and method which is the HTTP request for the value
+                    <br><br>
+                    and then you need to use the input tag you need the type element which will determine what the value of the input will be
+                    and name element which is required to store the value of the input. 
+                </p>
+                <form action="/storage.html" method="post">
+                    <h2>Input</h2>
+                    <input type="text" name="input1">
+                </form>
+            </div>
+
+        </div>
+
+        <p>You can make tables using the table tag and inbetween using:
+            <br>
+            The tr tag for each new row/column, th tag for table headings, td tag for data
+        </p>
+
+        <table class="t1">
+            <thead class="head1">
+                <caption>Monthly savings</caption>
+              <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>January</td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>$80</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Sum</td>
+                <td>$180</td>
+              </tr>
+            </tfoot>
+          </table>
+          <a href="styling.html" target="_blank"><button onClick="Button()">Click for Styling with CSS</button></a>
+    </body>
+
+    <script src="Learning.js"></script>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background: #2aa4dd;
+  }
+
+.backcolor1 {
+    background-color: bisque;
+}
+
+.backcolor2 {
+    background-color: crimson;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px
+}
+
+.t1 {
+    margin: auto;
+    border: 5px solid rgb(117, 190, 117);
+
+
+
+}
+
+.head1 {
+    background: #74acc5
+}
